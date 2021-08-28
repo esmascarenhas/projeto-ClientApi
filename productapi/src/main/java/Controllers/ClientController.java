@@ -24,7 +24,7 @@ import java.util.List;
 @RequestMapping("/api/v1/people")
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 
-public class ProductController {
+public class ClientController {
     private final ClientService clientService;
 
     @PostMapping
